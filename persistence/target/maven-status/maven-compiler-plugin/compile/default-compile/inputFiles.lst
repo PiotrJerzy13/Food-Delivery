@@ -1,0 +1,13 @@
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/values/FoodSelection.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/domain/Cart.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/data/FoodReader.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/domain/Food.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/domain/Credentials.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/data/OrderWriter.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/data/Reader.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/data/DataStore.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/domain/Customer.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/domain/OrderItem.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/domain/Order.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/data/FileDataStore.java
+/Users/piotrwojnarowski/IdeaProjects/Food-Delivery/persistence/src/main/java/food/data/CustomerReader.java

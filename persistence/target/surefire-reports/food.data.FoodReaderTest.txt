@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: food.data.FoodReaderTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in food.data.FoodReaderTest
+food.data.FoodReaderTest.shouldReturnEmptyListForEmptyFile(Path) -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException: The file is empty!
+	at food.data.Reader.readFromFile(Reader.java:22)
+	at food.data.FoodReader.read(FoodReader.java:12)
+	at food.data.FoodReaderTest.shouldReturnEmptyListForEmptyFile(FoodReaderTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+food.data.FoodReaderTest.shouldHandleFoodWithCommasInDescription(Path) -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NumberFormatException: Character   is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:608)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:497)
+	at java.base/java.math.BigDecimal.<init>(BigDecimal.java:903)
+	at food.data.FoodReader.buildFood(FoodReader.java:25)
+	at food.data.FoodReader.read(FoodReader.java:15)
+	at food.data.FoodReaderTest.shouldHandleFoodWithCommasInDescription(FoodReaderTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

@@ -1,0 +1,16 @@
+food/domain/OrderItem$Builder.class
+food/domain/Cart.class
+food/domain/Customer$Builder.class
+food/domain/Order.class
+food/domain/Credentials.class
+food/domain/Food$Builder.class
+food/domain/OrderItem.class
+food/data/FoodReader.class
+food/data/OrderWriter.class
+food/domain/Food.class
+food/data/Reader.class
+food/data/DataStore.class
+food/data/FileDataStore.class
+food/domain/Customer.class
+food/data/CustomerReader.class
+food/values/FoodSelection.class
